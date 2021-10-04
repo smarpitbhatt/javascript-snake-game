@@ -189,6 +189,7 @@ interval = setInterval(func, time);
 
 
 document.addEventListener("keydown",(e)=> {
+    console.log('keydown');
     if(e.keyCode==13) {
         if(!paused)
         pause();
